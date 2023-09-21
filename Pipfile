@@ -4,6 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+aiogram = "~=2.25.1"
+typing = "*"
+python-dotenv = "*"
+pydantic = "~=1.10"
+requests = "*"
+environs = "~=9.0"
 
 [dev-packages]
 
