@@ -10,5 +10,5 @@ from TgBot.bot import dp, bot
 async def start(message: types.Message):
     #await message.answer(message.from_user.id)
     markup = types.ReplyKeyboardMarkup()
-    markup.add(types.KeyboardButton('Открыть магазин', web_app=WebAppInfo(url='http://serverforyou.ru:8081')))
+    markup.add(types.KeyboardButton('Открыть магазин', web_app=WebAppInfo(url='https://rastorguyev.github.io/AlexAquaShopBot/src/html/')))
     await message.answer('Hello!',  reply_markup=markup)
